@@ -4,10 +4,10 @@ import pyodbc
 def connect_to_azure_sql(server, database, username, password):
     connection_string = (
         f"DRIVER={{ODBC Driver 17 for SQL Server}};"
-        f"SERVER={server};"
-        f"DATABASE={database};"
-        f"UID={username};"
-        f"PWD={password};"
+        f"SERVER={crm};"
+        f"DATABASE={clientes};"
+        f"UID={root};"
+        f"PWD="";"
         "Encrypt=yes;"
         "TrustServerCertificate=yes;"
     )
@@ -129,3 +129,4 @@ if __name__ == "__main__":
     resultados = execute_dynamic_matching(params_dict, score_cutoff=80)
     for r in resultados:
         print(r)
+
