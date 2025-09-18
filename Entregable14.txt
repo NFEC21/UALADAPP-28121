@@ -1,0 +1,6 @@
+1. Errores tipograficos menores como perezz si,pero erorres como pires no.
+2. Los acentos si pueden hacer una digerencia
+3. El algoritmo devuelve sólo la mejor coincidencia.
+4. Asignar pesos distintos a columnas.
+5. El sistema actual concatena todos los valores en un solo string. Eso implica
+“Nombre” y “Ciudad” pesan igual.
